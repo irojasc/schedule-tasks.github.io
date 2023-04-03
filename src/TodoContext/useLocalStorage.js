@@ -22,7 +22,7 @@ export const useLocalStorage = (itemName, initialValue) => { //custom hooks
                 setItem(parsedItem);
                 setLoading(false);
         
-            }, 2000);
+            }, 2500);
             }
          catch (error) {
             setError(error);

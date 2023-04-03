@@ -7,6 +7,7 @@ import { Todobutton } from '../todobutton';
 import { TodoContext, TodoProvider } from '../TodoContext';
 import { Modal } from '../Modal';
 import { Todoform } from '../todoform';
+import './App.css';
 
 
 export const AppUI = function(){
@@ -25,7 +26,7 @@ export const AppUI = function(){
             <Todosearch/>
             <Todolist>
                 {error && <p>Desesperate, hubo un error...</p>}
-                {loading && <p>Estamos cargando, no desesperes...</p>}
+                {loading && <div className='lds-face'><div></div><div></div><div></div></div>}
                 {(!loading && !searchedTodos.length) && <p>!Crea tu primera tarea¡ ✍️</p>}
 
                 {searchedTodos.map(item=>(<Todoitem 

@@ -7,6 +7,47 @@
   pointer-events: none;
 }
 
+.lds-face{
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  width: 80px;
+  height: 21px;
+  background-color: transparent;
+}
+
+.lds-face div {
+  display: inline-block;
+  position: absolute;
+  left: 8px;
+  width: 12px;
+  background: #FFDEFC;
+  animation: lds-facebook 1.2s cubic-bezier(0, 0.5, 0.5, 1) infinite;
+}
+.lds-face div:nth-child(1) {
+  left: 8px;
+  animation-delay: -0.24s;
+}
+.lds-face div:nth-child(2) {
+  left: 32px;
+  animation-delay: -0.12s;
+}
+.lds-face div:nth-child(3) {
+  left: 56px;
+  animation-delay: 0;
+}
+
+@keyframes lds-facebook {
+  0% {
+    top: -18px;
+    height: 54px;
+  }
+  50%, 100% {
+    top: -2px;
+    height: 27px;
+  }
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
