@@ -26,7 +26,7 @@ export const AppUI = function(){
             <Todolist>
                 {error && <p>Desesperate, hubo un error...</p>}
                 {loading && <p>Estamos cargando, no desesperes...</p>}
-                {(!loading && !searchedTodos.length) && <p>!Crea tu primer TODO¡</p>}
+                {(!loading && !searchedTodos.length) && <p>!Crea tu primera tarea¡ ✍️</p>}
 
                 {searchedTodos.map(item=>(<Todoitem 
                 key={item.text} 

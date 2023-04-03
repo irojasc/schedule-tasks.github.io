@@ -9,7 +9,7 @@ function TodoProvider(props){
     loading,
     error,} = useLocalStorage("TODOS_V1", []);
 
-    const [currentSearch, setSearch] = useState("");
+    const [currentSearch, setSearch] = React.useState("");
     const [isfrmOpen, setfrmOpen] = useState(false);
     const todosCompleted = currentTodos.filter(item=>!!item.completed).length;
     const todosAll = currentTodos.length;
