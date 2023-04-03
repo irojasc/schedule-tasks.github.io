@@ -1,0 +1,89 @@
+.text{
+    width: 70%;
+    color: #511F52;
+    font-weight: 500;
+}
+
+.text-decoration_{
+    text-decoration: line-through;
+}
+
+.task-li{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin: 0 0 10px 0;
+    border-radius: 5px;
+    background-color: #FFE1E8;  
+    border: none;
+    transition: transform 1.5s linear;
+}
+
+.wait_state, .done_state{
+    display: block;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    color: white;
+}
+
+.wait_state{
+    position: relative;
+    margin: 10px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFDEFC;
+    border: 1px solid #511F52;
+}
+
+.done_state{
+    position: relative;
+    width: 0px;
+    height: 0px;
+    background-color: #511F52;
+    transition: width 200ms, height 200ms;
+}
+
+.done_state-activate{
+    width: 25px;
+    height: 25px;
+}
+
+.delete_icon{
+    position: absolute;
+    display: block;
+    width: 20px;
+    height: 35px;
+    border-radius: 3px;
+    right: -5px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFDEFC;
+    font-weight: bold;
+    background-color: #DC143C;
+}
+
+.delete_icon:hover{
+    transform: scale(1.1);
+}
+
+.animation_delete{
+    animation-name: delete_taskLink;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    animation-duration: 500ms;
+    animation-fill-mode: forwards;
+}
+
+@keyframes delete_taskLink {
+    from{
+        transform: translateX(0px);
+    }
+    to{
+        transform: translateX(1000px);
+    }
+}

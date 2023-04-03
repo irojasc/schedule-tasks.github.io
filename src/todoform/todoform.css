@@ -1,0 +1,27 @@
+.formContainer{
+    position: relative;
+    width: 354px;
+    padding: 20px 0;
+    border-radius: 5px;
+    background-color: #632763;
+}
+
+.lbl {
+    display: block;
+    text-align: center;
+    margin: 0px 0 10px;
+}
+
+.txtArea{
+    display: block;
+    margin: 0 auto;
+    font-size: 18px;
+    height: 80px;
+    resize: none;
+}
+
+.button_form{
+ position: absolute;
+ bottom: 0px;
+ background-color: #191919;   
+}
