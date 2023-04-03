@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/schedule-tasks.github.io/static/css/main.e682d233.css",
-    "main.js": "/schedule-tasks.github.io/static/js/main.aa475222.js",
+    "main.css": "/schedule-tasks.github.io/static/css/main.a254172b.css",
+    "main.js": "/schedule-tasks.github.io/static/js/main.2d56de88.js",
     "index.html": "/schedule-tasks.github.io/index.html",
-    "main.e682d233.css.map": "/schedule-tasks.github.io/static/css/main.e682d233.css.map",
-    "main.aa475222.js.map": "/schedule-tasks.github.io/static/js/main.aa475222.js.map"
+    "main.a254172b.css.map": "/schedule-tasks.github.io/static/css/main.a254172b.css.map",
+    "main.2d56de88.js.map": "/schedule-tasks.github.io/static/js/main.2d56de88.js.map"
   },
   "entrypoints": [
-    "static/css/main.e682d233.css",
-    "static/js/main.aa475222.js"
+    "static/css/main.a254172b.css",
+    "static/js/main.2d56de88.js"
   ]
 }
