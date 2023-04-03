@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/schedule-tasks.github.io/static/css/main.e682d233.css",
+    "main.js": "/schedule-tasks.github.io/static/js/main.4b3d5b62.js",
+    "index.html": "/schedule-tasks.github.io/index.html",
+    "main.e682d233.css.map": "/schedule-tasks.github.io/static/css/main.e682d233.css.map",
+    "main.4b3d5b62.js.map": "/schedule-tasks.github.io/static/js/main.4b3d5b62.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e682d233.css",
+    "static/js/main.4b3d5b62.js"
+  ]
+}
